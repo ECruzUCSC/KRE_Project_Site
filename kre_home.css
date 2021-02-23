@@ -172,17 +172,24 @@ body {
 
 .btn-grad:hover {
   background-position: center bottom; /* change the direction of the change here */
-  color: #fff;
+  /*color: #fff;*/
   text-decoration: none;
 }
 
-.btn-grad-home {
-  background-image: linear-gradient(to bottom, #1A646E 0%, #22909D  51%, #1A646E  100%);
+.btn-grad:active {
+  opacity: .5;
+  box-shadow: none;
 }
 
-.btn-grad-home span.icon {
-  background: url("./assets/NavButtons/home_button.png") no-repeat;
-  float: left;
+/*
+.btn:active:focus {
+  opacity: .5;
+  background-image: linear-gradient(to bottom, #1A646E 0%, #22909D  51%, #1A646E  100%) !important;
+}
+*/
+
+.btn-grad-home {
+  background-image: linear-gradient(to bottom, #1A646E 0%, #22909D  51%, #1A646E  100%);
 }
 
 .btn-grad-guides {

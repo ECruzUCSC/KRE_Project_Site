@@ -3,7 +3,7 @@
   margin-left: 18px;
   float: left;
 
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 
   display: flex;
   align-items: center;
@@ -59,7 +59,16 @@
 .guide-button-focus {
   float: left;
   display: inline-block;
+  text-underline-offset: 4px;
   text-decoration: underline !important;
+}
+
+#hero-guides {
+  display: none;
+}
+
+#misc-guides {
+  display: none;
 }
 
 .hero_portrait {

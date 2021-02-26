@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   z-index: -1;
   overflow-x: hidden;
+  font-style: Candara;
 }
 
 .container {
@@ -174,11 +175,13 @@ body {
   background-position: center bottom; /* change the direction of the change here */
   /*color: #fff;*/
   text-decoration: none;
+  color: white !important;
 }
 
 .btn-grad:active {
   opacity: .5;
   box-shadow: none;
+
 }
 
 /*
@@ -255,6 +258,47 @@ body {
   margin-bottom: 50px;
 }
 
+.sub-content-bar {
+  width:100%;
+  height:120px;
+}
+
+.sub-content-bar-left {
+  background: url("./assets/SubMenu_Left.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-left: -10px;
+  float: left;
+}
+
+.sub-content-bar-right {
+  background: url("./assets/SubMenu_Right.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-right: -20px;
+  float: right;
+}
+
+.sub-content-bar-middle {
+  background: url("./assets/SubMenu_center.png");
+  background-repeat: repeat-x;
+  width: calc(100% - 159px);
+  align-content: center;
+  height: 100px;
+  padding-top: 22px;
+  margin-left: -11px;
+  margin-right: -20px;
+  display: inline-flex;
+}
+
 /* -------------------------------
   End Content
 */
+
+
+h1 {
+  font-style: Candara;
+  font-weight: normal;
+}

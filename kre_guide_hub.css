@@ -1,0 +1,67 @@
+.class-banner {
+  width: 100%;
+  margin-left: 18px;
+  float: left;
+
+  margin-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.class-banner h2 {
+  margin-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  display: inline;
+}
+
+
+.class-icons {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.class-icons img {
+  margin-right: 2px;
+  margin-bottom: 5px;
+  border: 1px solid rgba(255, 255, 255);
+}
+
+.knight-banner {
+  background: url("./assets/ClassBanners/knight_ribbon.png");
+}
+
+.warrior-banner {
+  background: url("./assets/ClassBanners/warrior_ribbon.png");
+}
+
+.guide-tab {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.guide-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  font-family: Candara;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  float: left;
+}
+
+.guide-button-focus {
+  float: left;
+  display: inline-block;
+  text-decoration: underline !important;
+}
+
+.hero_portrait {
+
+}

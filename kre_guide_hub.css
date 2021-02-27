@@ -74,3 +74,9 @@
 .hero_portrait {
 
 }
+
+.gdocs-embed iframe{
+  margin-left: 8px;
+  width: calc(100% - 18px);
+  height: 750px;
+}

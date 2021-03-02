@@ -258,6 +258,12 @@ body {
   margin-bottom: 50px;
 }
 
+
+
+/* -------------------------------
+  End Content
+*/
+
 .sub-content-bar {
   width:100%;
   height:120px;
@@ -293,8 +299,18 @@ body {
   display: inline-flex;
 }
 
+.sub-content-prose {
+  font-size: 22px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
 /* -------------------------------
-  End Content
+  Divider
+*/
+
+/* -------------------------------
+  End Divider
 */
 
 

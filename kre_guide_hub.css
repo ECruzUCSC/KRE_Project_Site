@@ -41,6 +41,12 @@
 .guide-tab {
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.guide-tab a {
+  color: white;
 }
 
 .guide-button {
@@ -85,3 +91,115 @@
 .gdocs-embed img{
   max-width:80%;
 }
+
+
+.hero-info-panel {
+  width: 100%;
+  height: 500px;
+
+  border: 4px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  background: rgba(0, 0, 0, .4);
+  margin-bottom: 25px;
+}
+
+.hero-name-ribbon {
+  margin-top: 12px;
+  padding-left: 25px;
+
+  height: 90px;
+  width: 50%;
+  background-image: linear-gradient(to right, rgba(121, 0, 0, 1) 0%, rgba(121, 0, 0, 0)  100%);
+  display: block;
+
+  color: white;
+  font-family: Cambria;
+  font-size: 24px;
+}
+
+.hero-name-ribbon h1 {
+  color: white;
+  font-family: Cambria;
+  font-size: 52px;
+  margin-bottom: -12px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-info-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("./hero_info/isolet/cropped_art_bg_isolet.png");
+  background-size: auto 492px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 207px) 0;
+  position: absolute;
+}
+
+
+
+.hero-info-main {
+  color: white;
+  font-family: Cambria;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 8px;
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0)  100%);
+  min-width: 400px;
+  width: 60%;
+  height: 330px;
+  float: left;
+  line-height: 150%;
+}
+
+
+.class-ribbon {
+  color: white;
+  font-family: Cambria;
+  font-size: 24px;
+
+
+  padding-right: 25px;
+
+
+
+
+
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5)  100%);
+  position: relative;
+  z-index: 1;
+  float: right;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.class-ribbon img {
+  margin-left: 5px;
+}
+
+.hero-info-story-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skill-info {
+  display: none;
+}
+
+#guide {
+  display: none;
+}
+
+/*
+.hero-info-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 30% 30%;
+}*/

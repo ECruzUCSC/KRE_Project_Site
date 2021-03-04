@@ -121,6 +121,7 @@
   color: white;
   font-family: Cambria;
   font-size: 52px;
+  font-weight: bold;
   margin-bottom: -12px;
   position: relative;
   z-index: 1;
@@ -163,10 +164,6 @@
 
   padding-right: 25px;
 
-
-
-
-
   width: 100%;
   height: 60px;
   background-image: linear-gradient(to left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5)  100%);
@@ -183,17 +180,17 @@
   margin-left: 5px;
 }
 
-.hero-info-story-bar {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #skill-info {
   display: none;
 }
 
 #guide {
   display: none;
+}
+
+.hero-skill {
+  display: block;
+  margin-bottom: 50px;
 }
 
 .skill-image-second-border {
@@ -203,16 +200,15 @@
 .skill-image {
   padding: 5px 5px 5px 5px;
   border: 1px solid rgba(255, 255, 255);
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 40px;
+  margin-right: 15px;
   float: left;
+  margin-bottom: 10px;
 }
 
-.skill-info {
-  margin-bottom: 40px;
+.skill-description {
   clear: both;
 }
+
 
 /*
 .hero-info-bg img {

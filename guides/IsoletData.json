@@ -1,0 +1,50 @@
+{
+    "hero": {
+      "id": 1,
+      "heroName": "isolet",
+      "heroClass": "wizard",
+      "dpsType": "physical",
+      "position": "back",
+      "heroInfo": {
+        "age": 22,
+        "height": "167 cm",
+        "race": "human",
+        "constellation": "Judgment Layan",
+        "birthday": "September 9th",
+        "likes": "Big dumb witch hats",
+        "dislikes": "Content that's not Galg or Flow",
+        "backstory": [
+          "lorem",
+          "ipsum"
+        ]
+      },
+      "skillInfo": {
+        "skill": [
+          {
+            "skillNumber": 1,
+            "skillName": "Devouring Flame - Caienne",
+            "cooldown": "7 seconds",
+            "mana": 2
+          },
+          {
+            "skillNumber": 2,
+            "skillName": "Frost of Absolute Zero - Devion",
+            "cooldown": "15 seconds",
+            "mana": 3
+          },
+          {
+            "skillNumber": 3,
+            "skillName": "Raging Storm - Icarus",
+            "cooldown": "20 seconds",
+            "mana": 4
+          },
+          {
+            "skillNumber": 4,
+            "skillName": "Quintessence of Technomagic",
+            "cooldown": "N/A",
+            "mana": 0
+          }
+        ]
+      }
+    }
+  }

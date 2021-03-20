@@ -1,50 +1,112 @@
 {
-    "hero": {
-      "id": 1,
-      "heroName": "isolet",
-      "heroClass": "wizard",
-      "dpsType": "physical",
-      "position": "back",
-      "heroInfo": {
-        "age": 22,
-        "height": "167 cm",
-        "race": "human",
-        "constellation": "Judgment Layan",
-        "birthday": "September 9th",
-        "likes": "Big dumb witch hats",
-        "dislikes": "Content that's not Galg or Flow",
-        "backstory": [
-          "lorem",
-          "ipsum"
-        ]
+    "hero": [
+      {
+        "id": 1,
+        "heroName": "isolet",
+        "heroClass": "wizard",
+        "dpsType": "physical",
+        "position": "back",
+        "heroInfo": {
+          "title": "Hope of Gray",
+          "age": 22,
+          "height": "167 cm",
+          "race": "human",
+          "constellation": "Judgment Layan",
+          "birthday": "September 9th",
+          "likes": "Big dumb witch hats",
+          "dislikes": "Content that's not Galg or Flow",
+          "backstory": [
+            "lorem",
+            "ipsum"
+          ]
+        },
+        "skillInfo": {
+          "skill": [
+            {
+              "skillNumber": 1,
+              "skillName": "Devouring Flame - Caienne",
+              "cooldown": "7 seconds",
+              "mana": 2,
+              "skillDescription": ""
+            },
+            {
+              "skillNumber": 2,
+              "skillName": "Frost of Absolute Zero - Devion",
+              "cooldown": "15 seconds",
+              "mana": 3,
+              "skillDescription": ""
+            },
+            {
+              "skillNumber": 3,
+              "skillName": "Raging Storm - Icarus",
+              "cooldown": "20 seconds",
+              "mana": 4,
+              "skillDescription": ""
+            },
+            {
+              "skillNumber": 4,
+              "skillName": "Quintessence of Technomagic",
+              "cooldown": "N/A",
+              "mana": 0,
+              "skillDescription": ""
+            }
+          ]
+        }
       },
-      "skillInfo": {
-        "skill": [
-          {
-            "skillNumber": 1,
-            "skillName": "Devouring Flame - Caienne",
-            "cooldown": "7 seconds",
-            "mana": 2
-          },
-          {
-            "skillNumber": 2,
-            "skillName": "Frost of Absolute Zero - Devion",
-            "cooldown": "15 seconds",
-            "mana": 3
-          },
-          {
-            "skillNumber": 3,
-            "skillName": "Raging Storm - Icarus",
-            "cooldown": "20 seconds",
-            "mana": 4
-          },
-          {
-            "skillNumber": 4,
-            "skillName": "Quintessence of Technomagic",
-            "cooldown": "N/A",
-            "mana": 0
-          }
-        ]
+
+
+      {
+        "id": 2,
+        "heroName": "chase",
+        "heroClass": "warrior",
+        "dpsType": "physical",
+        "position": "front",
+        "heroInfo": {
+          "title": "Type. 0",
+          "age": 27,
+          "height": "196 cm",
+          "race": "human",
+          "constellation": "Hexipolia the Wanderer",
+          "birthday": "December 8th",
+          "likes": "Gun Lances",
+          "dislikes": "People saying he's OP",
+          "backstory": [
+            "lorem",
+            "ipsum"
+          ]
+        },
+        "skillInfo": {
+          "skill": [
+            {
+              "skillNumber": 1,
+              "skillName": "I'll Break You!",
+              "cooldown": "12 seconds",
+              "mana": 2,
+              "skillDescription": ""
+            },
+            {
+              "skillNumber": 2,
+              "skillName": "Remove Limit",
+              "cooldown": "10 seconds",
+              "mana": 3,
+              "skillDescription": ""
+            },
+            {
+              "skillNumber": 3,
+              "skillName": "Burn, Spear of Fury",
+              "cooldown": "20 seconds",
+              "mana": 3,
+              "skillDescription": ""
+            },
+            {
+              "skillNumber": 4,
+              "skillName": "Remember This in Hell",
+              "cooldown": "N/A",
+              "mana": 0,
+              "skillDescription": ""
+            }
+          ]
+        }
       }
-    }
+    ]
   }

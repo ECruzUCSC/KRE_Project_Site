@@ -2,15 +2,16 @@
     "hero": [
       {
         "id": 1,
-        "heroName": "isolet",
-        "heroClass": "wizard",
-        "dpsType": "physical",
-        "position": "back",
+        "heroName": "Isolet",
+        "heroClass": "Wizard",
+        "dpsType": "Physical",
+        "position": "Back",
         "heroInfo": {
           "title": "Hope of Gray",
+          "gender": "Female",
           "age": 22,
           "height": "167 cm",
-          "race": "human",
+          "race": "Human",
           "constellation": "Judgment Layan",
           "birthday": "September 9th",
           "likes": "Big dumb witch hats",
@@ -57,12 +58,13 @@
 
       {
         "id": 2,
-        "heroName": "chase",
-        "heroClass": "warrior",
-        "dpsType": "physical",
-        "position": "front",
+        "heroName": "Chase",
+        "heroClass": "Warrior",
+        "dpsType": "Physical",
+        "position": "Front",
         "heroInfo": {
           "title": "Type. 0",
+          "gender": "Male",
           "age": 27,
           "height": "196 cm",
           "race": "human",
